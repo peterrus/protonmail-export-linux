@@ -38,4 +38,4 @@ Depending on the amount of emails in your account this can take few hours. Offli
 ## The future
 I personally hope Protonmail releases both an open source version of the Bridge and Import/Export tool in the future that runs (or can be ported to) Windows, Linux and MacOS. Other than that: Keep up the great work Protonmail.
 
-Furthermore: A hearthfelt thanks to everyone in the Offlineimap project for powering my email archival needs all these years.
+Furthermore: A heartfelt thanks to everyone in the Offlineimap project for powering my email archival needs all these years.
