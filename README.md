@@ -31,6 +31,7 @@ That really depends on your threat vectors. You could for example store and upda
 3. Clone and `cd` into this repository (in a encrypted container if you want).
 4. Edit offlineimaprc and change at least the username (You can find it in the Bridge)
 5. Run the export using `offlineimap -c offlineimaprc`
+6. Offlineimap will ask for your Bridge password and start the sync.
 
 Depending on the amount of emails in your account this can take few hours. Offlineimap uses a cache/metadata directory to track remote changes. This means you only download new emails when you run this command at a later date, something the official tool currently does not support.
 
