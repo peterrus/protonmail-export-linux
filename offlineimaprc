@@ -1,0 +1,32 @@
+# Feel free to modify this file to your needs
+# See https://github.com/OfflineIMAP/offlineimap/blob/master/offlineimap.conf for a full reference
+
+[general]
+accounts = Protonmail
+metadata = ./offlineimap-metadata
+
+[Account Protonmail]
+localrepository = ProtonmailLocal
+remoterepository = ProtonmailRemote
+
+# Feel free to change this, or disable it by commenting it out
+postsynchook = notify-send 'Protonmail export done'
+
+[Repository ProtonmailLocal]
+type = Maildir
+localfolders = ./protonmail-export
+# If you (accidentally) delete mail locally, it won't get synced to Protonmail
+sync_deletes = no
+
+[Repository ProtonmailRemote]
+type = IMAP
+# Change this to the value provided in the Protonmail bridge
+remoteuser = ono-sendai@hosaka.net
+remotehost = localhost
+remoteport = 1143
+ssl = no
+starttls = no
+# If you delete mail on Protonmail, this deletion also get's synced to the archive
+expunge = yes
+# Don't try to sync local changes to Protonmail, we just want a backup
+readonly = True
