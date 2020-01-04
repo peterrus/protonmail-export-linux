@@ -1,6 +1,6 @@
 # Exporting Protonmail On Linux
 
-Because Protonmail has no [official import/export](https://protonmail.com/support/knowledge-base/export-import-emails/) tool for Linux I put down this modest repository. It serves as a simple example on how you can incrementrally export (backup) all your email from Protonmail's servers to a local Maildir archive. 
+Because Protonmail has no [official import/export](https://protonmail.com/support/knowledge-base/export-import-emails/) tool for Linux I put down this modest repository. It serves as a simple example on how you can incrementally export (backup) all your email from Protonmail's servers to a local Maildir archive. 
 
 This archive can be grepped (searched) because it is a bunch of good old resilient plaintext files. Because Maildir is a fairly standard format it can also be imported into mail clients like Thunderbird or be used when migrating away from Protonmail.
 
