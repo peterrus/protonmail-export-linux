@@ -6,7 +6,7 @@ This archive can be grepped (searched) because it is a bunch of good old resilie
 
 ## Why would you export all your mail?
 
-Email still has an import purpose for me personally. It is my archive of invoices, business arrangements and the rarest of memes. I would hate to not have access to them. I can imagine several situations where this could happen.
+Email still has an important purpose for me personally. It is my archive of invoices, business arrangements and the rarest of memes. I would hate to not have access to them. I can imagine several situations where this could happen.
 
 - Protonmail erroneously locks you out of your account.
 - You want to do a full-text search of your mails (which Protonmail [does not support](https://protonmail.com/support/knowledge-base/search/)).
